@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 
@@ -41,27 +41,38 @@ div{
     font-size: 14px;
    
 }
-@media (min-width: 992px){
+/* Desktop */
+/* @media (min-width: 992px){
     .section{
         width: 33.33%;
         float: left;
         
-    }
+    } */
     /* .section:nth-child(3) {
         clear: both;
         width: 100%;
     } */
-}
-@media (min-width: 991px) and (max-width: 786px){
-    .section:nth-child(3){
+/* } */
+/* Mobile  */
+/* @media (min-width: 896px) {
+    #sec1 #sec2{
+        width: 50%;
+        float: left;
+    }
+    #sec3{
         clear: both;
-        width: 100%;
+        width: 100%; !important
     }
 }
-
-@media (max-width: 767px) {
+/* Tablet */
+/* @media (max-width: 767px) {
     .section {
         width: 100%;
         float: none;
     }
+}  */
+h1{
+    color: aliceblue;
+    background-color: lightslategray;
+    text-align: center;
 }
